@@ -8,3 +8,13 @@ img {
     height: 300px;
     width: 300px;
 }
+
+.MotoGP-logo{
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+.navbar-nav {
+    font-size: 22px;
+}
