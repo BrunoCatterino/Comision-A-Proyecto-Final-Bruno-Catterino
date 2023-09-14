@@ -11,12 +11,12 @@ const mostrarPublicaciones = (publicaciones, elementoHtml) => {
     // Método para recorrer los registros
     publicaciones.forEach(publicacion => {
         secciones += `
-            <section class="d-flex gap-2">
+            <section class="d-flex gap-4">
             <img src="${publicacion.url_imagen}" class="rounded" height=200 >
-            <div class="d-flex flex-column justify-content-between">
-                <h5>${publicacion.titulo}</h5>
+            <div class="d-flex flex-column justify-content-center">
+                <h3 class="mt-3 mb-3">${publicacion.titulo}</h5>
                 <p>${publicacion.descripcion}</p>
-                <p>${publicacion.fecha}</p>
+                <p class="mt-3"><b>Fecha:</b> ${publicacion.fecha}</p>
             </div>
             </section>
         `
